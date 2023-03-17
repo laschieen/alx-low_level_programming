@@ -19,7 +19,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar(alphabet[i].toupper());
+		putchar(toupper(alphabet[i]));
 	}
 
 	putchar('\n');
