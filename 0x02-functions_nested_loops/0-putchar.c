@@ -20,5 +20,7 @@ int main(void)
 	{
 		_putchar(mystr[i]);
 	}
+	_putchar('\n');
+
 	return (0);
 }
